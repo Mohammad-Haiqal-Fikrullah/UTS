@@ -1,0 +1,180 @@
+/* ========== RESET STYLE ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== BODY ========== */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ========== CONTAINER ========== */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ========== HEADER ========== */
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* ========== Bagian Pembuka ========== */
+.hero {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),
+        url('WhatsApp Image 2025-11-01 at 07.44.18.jpeg') no-repeat center bottom/cover;
+    height: 165vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffaa00;
+}
+
+/* ========== SECTION UMUM ========== */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 900px;
+}
+
+.section h3 {
+    color: #0077cc;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+/* ========== TABEL PROFIL ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table td:first-child {
+    font-weight: bold;
+    color: #0077cc;
+    width: 40%;
+}
+
+/* ========== KONTAK ========== */
+#kontak a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#kontak a:hover {
+    text-decoration: underline;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 2em;
+    }
+    .hero-content p {
+        font-size: 1em;
+    }
+    table td {
+        display: block;
+        text-align: left;
+    }
+    table tr {
+        margin-bottom: 10px;
+    }
+}
